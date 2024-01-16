@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="158d38d4-3b75-4ea9-a478-6fee1650f13a" name="更改" comment="" />
+    <list default="true" id="158d38d4-3b75-4ea9-a478-6fee1650f13a" name="更改" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit a47cf427b39500eea67b7b20fcaec723b15464a9.">
+      <change afterPath="$PROJECT_DIR$/homework" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/train/exp8/F1_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/train/exp8/PR_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/train/exp8/P_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/train/exp8/R_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/train/exp8/confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/train/exp8/events.out.tfevents.1705378242.LAPTOP-T20Q5AH5.15748.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/train/exp8/hyp.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/train/exp8/labels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/train/exp8/labels_correlogram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/train/exp8/opt.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/train/exp8/results.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/train/exp8/results.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/train/exp8/test_batch0_labels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/train/exp8/test_batch0_pred.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/train/exp8/train_batch0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/train/exp8/train_batch1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/train/exp8/train_batch2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/train/exp8/weights/best.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/train/exp8/weights/last.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +52,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -159,16 +182,67 @@
       <workItem from="1705377766765" duration="208000" />
       <workItem from="1705377981337" duration="93000" />
       <workItem from="1705378081762" duration="67000" />
+      <workItem from="1705378155800" duration="358000" />
+      <workItem from="1705378709602" duration="96000" />
     </task>
+    <task id="LOCAL-00001" summary="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit a47cf427b39500eea67b7b20fcaec723b15464a9.">
+      <option name="closed" value="true" />
+      <created>1705378288066</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705378288066</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="379193c5-b586-449e-8c2c-d31972562a49" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="379193c5-b586-449e-8c2c-d31972562a49">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit a47cf427b39500eea67b7b20fcaec723b15464a9." />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit a47cf427b39500eea67b7b20fcaec723b15464a9." />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/yolov5_5_0$detect1.coverage" NAME="detect1 覆盖结果" MODIFIED="1705376577578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yolov5_5_0$detect1.coverage" NAME="detect1 覆盖结果" MODIFIED="1705378190478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yolov5_5_0$detect.coverage" NAME="detect 覆盖结果" MODIFIED="1703736900216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yolov5_5_0$detect2.coverage" NAME="detect2 覆盖结果" MODIFIED="1705377026201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/yolov5_5_0$train.coverage" NAME="train 覆盖结果" MODIFIED="1705377117256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yolov5_5_0$train.coverage" NAME="train 覆盖结果" MODIFIED="1705378201468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
