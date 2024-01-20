@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>左右箭头滚动图片</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        .scroll-container {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .scroll-items {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+
+        .scroll-item {
+            min-width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center; 
+        }
+
+        .scroll-item img {
+            width: 250px;
+            height: auto;
+            display: block;
+            margin: 0 auto; 
+        }
+
+        .arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .arrow.left {
+            left: 400px;
+        }
+
+        .arrow.right {
+            right: 400px;
+        }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            display: flex;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="/search" method="get">
+        <input type="text" name="q" placeholder="在这里输入搜索词">
+        <input type="submit" value="搜索">
+    </form>
+
+    <div class="scroll-container">
+        <div class="scroll-items">
+            <div class="scroll-item"><img src="image2.jpg" alt="图片1"></div>
+            <div class="scroll-item"><img src="image2.jpg" alt="图片2"></div>
+            <div class="scroll-item"><img src="image2.jpg" alt="图片3"></div>
+        </div>
+        <div class="arrow left" onclick="scrollLeft()">&#10094;</div>
+        <div class="arrow right" onclick="scrollRight()">&#10095;</div>
+    </div>
+
+    <script>
+        let currentIndex = 0;
+        const totalItems = document.querySelectorAll('.scroll-item').length;
+        const container = document.querySelector('.scroll-items');
+
+        function scrollLeft() {
+            currentIndex = (currentIndex - 1 + totalItems) % totalItems;
+            updateScroll();
+        }
+
+        function scrollRight() {
+            currentIndex = (currentIndex + 1) % totalItems;
+            updateScroll();
+        }
+
+        function updateScroll() {
+            const newTransformValue = -currentIndex * 100 + '%';
+            container.style.transform = 'translateX(' + newTransformValue + ')';
+        }
+    </script>
+</body>
+</html>
